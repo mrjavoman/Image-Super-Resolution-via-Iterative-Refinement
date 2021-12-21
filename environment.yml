@@ -1,0 +1,17 @@
+name: sr
+channels:
+- conda-forge
+- pytorch
+- defaults
+dependencies:
+- pip
+- python>=3.8
+- numpy
+- Pillow
+- tensorboardX
+- torchvision
+- tqdm
+pip:
+  - torch
+  - opencv-python>=3.3.0.10
+  - lmdb
